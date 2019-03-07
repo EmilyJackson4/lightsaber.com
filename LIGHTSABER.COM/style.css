@@ -1,0 +1,139 @@
+body {
+    font-family: helvetica;
+    color: white;
+    margin: 0;
+    background: black;
+   }
+
+#hero {
+    display: block;
+    width: 100%;
+    height: 450px;
+}
+
+nav {
+    background: black;
+    padding: 10px;
+}
+
+ul {
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+
+li:hover {
+    color: gold;
+}
+
+span{
+    font-size: 2em;
+    display: block;
+    text-align: center;   
+    padding: 20px;
+    
+}
+
+article h1, p{
+    text-align: center;
+     
+}
+
+#description h1{
+    font-size: 30px;
+    
+}
+
+article p{
+    font-size: 20px;
+    padding: 20px 200px;
+      
+}
+
+#solo{
+    display: inline-block;
+    width: 45%;
+    height: 480px;
+
+}
+   
+    
+#galaxy{
+    
+    width:54%;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+
+
+/*CATALOGUE PAGE*/
+
+#herosaber {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+#origsaber {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+#originalsaber p{
+    padding-bottom: 60px;
+}
+
+#buy {
+    font-size: 30px;
+    border: 1px solid white;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 200px;
+ }
+
+#buy:hover{
+    color: gold;
+}
+
+/*group training*/
+
+#grouptraining{
+    display: flex;
+    text-align: center;
+        
+}
+
+#groupphoto{
+    width: 100%;
+}
+
+#gt{
+    padding-top: 80px;
+}
+
+/*personal training*/
+
+#personaltraining{
+    display: flex;
+    text-align: center;
+        
+}
+
+#personalphoto{
+    width: 90%;
+}
+
+#pt {
+    padding-top: 80px;
+}
